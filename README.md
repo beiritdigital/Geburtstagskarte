@@ -1,10 +1,11 @@
-# Geburtstagskarte fuer Jessica
+# Geburtstagskarte für Jessica
 
 Eine responsive Geburtstagskarte als einzelne HTML-Datei für Jessicas 34. Geburtstag.
 
 ## Datei
 
 - `34-Geburtstag-Jessica.html` - komplette Geburtstagskarte mit Layout, Animationen, Konfetti, Ballons und Musik
+- `favicon.svg` - kleines Icon für Browser-Tab und Lesezeichen
 
 ## Nutzung
 
@@ -32,11 +33,11 @@ Die wichtigsten Texte stehen direkt im HTML im Bereich:
 ```html
 <article
   class="birthday-card"
-  aria-label="Geburtstagskarte fuer Jessica"
+  aria-label="Geburtstagskarte für Jessica"
 ></article>
 ```
 
-Farben, Groössen und Schatten sind im CSS über Variablen in `:root` gebündelt.
+Farben, Größen und Schatten sind im CSS über Variablen in `:root` gebündelt.
 
 Die Musiknoten stehen im JavaScript-Array `birthdaySong`. Tempo und Lautstärke können über diese Konstanten angepasst werden:
 
